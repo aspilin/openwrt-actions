@@ -14,4 +14,4 @@ git clone https://github.com/Lienol/openwrt openwrt/Lienol命令下载好源代�
 
 make menuconfig
 
-最后选好你要的路由，输入 make -j1 V=s （-j1 后面是线程数。第一次编译推荐用单线程，国内请尽量全局科学上网）即可开始编译你要的固件了。
+[使用 GitHub Actions 云编译 OpenWrt](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
